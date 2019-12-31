@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/argon-design-system-react/static/css/main.cd0f58fa.chunk.css",
+    "main.js": "/argon-design-system-react/static/js/main.bb910d77.chunk.js",
+    "main.js.map": "/argon-design-system-react/static/js/main.bb910d77.chunk.js.map",
+    "runtime-main.js": "/argon-design-system-react/static/js/runtime-main.836f3ab7.js",
+    "runtime-main.js.map": "/argon-design-system-react/static/js/runtime-main.836f3ab7.js.map",
+    "static/js/2.78a62913.chunk.js": "/argon-design-system-react/static/js/2.78a62913.chunk.js",
+    "static/js/2.78a62913.chunk.js.map": "/argon-design-system-react/static/js/2.78a62913.chunk.js.map",
+    "index.html": "/argon-design-system-react/index.html",
+    "precache-manifest.3d3b636d0966c0545db4eba35aa7b01a.js": "/argon-design-system-react/precache-manifest.3d3b636d0966c0545db4eba35aa7b01a.js",
+    "service-worker.js": "/argon-design-system-react/service-worker.js",
+    "static/css/main.cd0f58fa.chunk.css.map": "/argon-design-system-react/static/css/main.cd0f58fa.chunk.css.map",
+    "static/js/2.78a62913.chunk.js.LICENSE": "/argon-design-system-react/static/js/2.78a62913.chunk.js.LICENSE",
+    "static/media/font-awesome.min.css": "/argon-design-system-react/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/github.svg": "/argon-design-system-react/static/media/github.4ffd4fe7.svg",
+    "static/media/google.svg": "/argon-design-system-react/static/media/google.87be59a1.svg",
+    "static/media/ill-2.svg": "/argon-design-system-react/static/media/ill-2.594b1ee1.svg",
+    "static/media/img-1-1200x1000.jpg": "/argon-design-system-react/static/media/img-1-1200x1000.1e7c70dc.jpg",
+    "static/media/landing.jpg": "/argon-design-system-react/static/media/landing.0ec26478.jpg",
+    "static/media/nucleo.css": "/argon-design-system-react/static/media/nucleo-icons.f82ec6ba.ttf",
+    "static/media/profile.jpg": "/argon-design-system-react/static/media/profile.278a0d25.jpg",
+    "static/media/promo-1.png": "/argon-design-system-react/static/media/promo-1.75f7ab18.png",
+    "static/media/team-1-800x800.jpg": "/argon-design-system-react/static/media/team-1-800x800.53033970.jpg",
+    "static/media/team-2-800x800.jpg": "/argon-design-system-react/static/media/team-2-800x800.dcfcf3b7.jpg",
+    "static/media/team-3-800x800.jpg": "/argon-design-system-react/static/media/team-3-800x800.497bb359.jpg",
+    "static/media/team-4-800x800.jpg": "/argon-design-system-react/static/media/team-4-800x800.23007132.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.836f3ab7.js",
+    "static/js/2.78a62913.chunk.js",
+    "static/css/main.cd0f58fa.chunk.css",
+    "static/js/main.bb910d77.chunk.js"
+  ]
+}
