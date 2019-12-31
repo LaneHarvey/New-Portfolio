@@ -119,7 +119,7 @@ class Icons extends React.Component {
                   <i className="icon ni "
                     id="tooltip246012"
                   >
-                    <span class="iconify" data-icon="ant-design:github-filled" data-inline="false"></span>
+                    <span className="iconify" data-icon="ant-design:github-filled" data-inline="false"></span>
                      <UncontrolledTooltip delay={0} target="tooltip246012">
                       Github
                     </UncontrolledTooltip>
@@ -127,7 +127,7 @@ class Icons extends React.Component {
                   <i className="icon ni"
                     id="tooltip246013"
                   >
-                     <span class="iconify" data-icon="bx:bxl-jquery" data-inline="false"></span>
+                     <span className="iconify" data-icon="bx:bxl-jquery" data-inline="false"></span>
                       <UncontrolledTooltip delay={0} target="tooltip246013">
                       jQuery
                     </UncontrolledTooltip>
