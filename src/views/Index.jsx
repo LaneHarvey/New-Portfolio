@@ -22,6 +22,8 @@ import {
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
 import SimpleFooter from "components/Footers/SimpleFooter.jsx";
+import ContactFooter from "components/Footers/ContactFooter.jsx";
+
 
 // index page sections
 import Hero from "./IndexSections/Hero.jsx";
@@ -47,6 +49,8 @@ class Index extends React.Component {
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="4">
+                      <a href="https://snakesonalane.netlify.com/"
+                            target="_blank">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
@@ -54,6 +58,7 @@ class Index extends React.Component {
                           </div>
                           <h6 className="text-primary text-uppercase">Snake</h6>
                           <p className="description mt-3">A game of Snake.</p>
+                          <br/>
                           <div>
                             <Badge color="primary" pill className="mr-1">
                               HTML
@@ -65,10 +70,10 @@ class Index extends React.Component {
                               Canvas
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              p5.js
+                              P5.js
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              firebase
+                              Firebase
                             </Badge>
                           </div>
                           <Button
@@ -82,31 +87,33 @@ class Index extends React.Component {
                           </Button>
                         </CardBody>
                       </Card>
+                      </a>
+
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="fa fa-dribbble" />
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4" href="https://page-animations.netlify.com/">
+                            <i className="fa fa-dribbble"/>
                           </div>
                           <h6 className="text-success text-uppercase">
                             Page Animations
                           </h6>
                           <p className="description mt-3">
-                            Using the JS framework Tweenmax i made this really cool page loading animation.
+                            Using the JS framework Tweenmax I made this really cool page loading animation.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              Js
+                              JS
                             </Badge>
                             <Badge color="success" pill className="mr-1">
                               TweenMax
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              Css
+                              CSS
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              html
+                              HTML
                             </Badge>
                           </div>
                           <Button
@@ -127,26 +134,23 @@ class Index extends React.Component {
                             <i className="fa fa-film" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Netlfix landing page clone
+                            Netlfix landing page clone.
                           </h6>
                           <p className="description mt-3">
-                            I recreated the netflix landing page to challenge myself as a front end developer
+                            I recreated the netflix landing page to challenge myself as a front end developer.
                           </p>
                           <div>
-                          <Badge color="warning" pill className="mr-1">
-                              html
+                            <Badge color="warning" pill className="mr-1">
+                              HTML/CSS
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              css
+                              JS
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              js
+                              Netlify
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              netlify
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              github
+                              Github
                             </Badge>
                           </div>
                           <Button
@@ -154,7 +158,126 @@ class Index extends React.Component {
                             color="warning"
                             href="https://netflixify.netlify.com/"
                             target="_blank"
-
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="fa fa-film" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Project A.
+                          </h6>
+                          <p className="description mt-3">
+                            I recreated the netflix landing page to challenge myself as a front end developer.
+                          </p>
+                          <div>
+                          <Badge color="warning" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              CSS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              JS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Netlify
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Github
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://netflixify.netlify.com/"
+                            target="_blank"
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="fa fa-film" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Project B.
+                          </h6>
+                          <p className="description mt-3">
+                            I recreated the netflix landing page to challenge myself as a front end developer.
+                          </p>
+                          <div>
+                          <Badge color="warning" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              CSS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              JS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Netlify
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Github
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://netflixify.netlify.com/"
+                            target="_blank"
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="fa fa-film" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Project Wii.
+                          </h6>
+                          <p className="description mt-3">
+                            I recreated the netflix landing page to challenge myself as a front end developer.
+                          </p>
+                          <div>
+                          <Badge color="warning" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              CSS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              JS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Netlify
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Github
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://netflixify.netlify.com/"
+                            target="_blank"
                           >
                             Learn more
                           </Button>
@@ -167,7 +290,8 @@ class Index extends React.Component {
             </Container>
           </section>
 
-          <SimpleFooter />
+          {/* <SimpleFooter /> */}
+          <ContactFooter />
         </main>
       </>
     );

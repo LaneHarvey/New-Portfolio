@@ -44,7 +44,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className=" btn-neutral btn-icon-only btn-round ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/LaneHarvey"
                   id="tooltip626177562"
                   size="lg"
                   target="_blank"
@@ -57,7 +57,7 @@ class SimpleFooter extends React.Component {
               </Col>
             </Row>
             <hr />
-            <Row className=" align-items-center justify-content-md-between">
+            {/* <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
@@ -85,7 +85,7 @@ class SimpleFooter extends React.Component {
                 </Nav>
               </Col>
 
-            </Row>
+            </Row> */}
           </Container>
         </footer>
       </>

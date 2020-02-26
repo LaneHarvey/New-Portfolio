@@ -41,7 +41,7 @@ class Landing extends React.Component {
         <main ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section section-lg section-shaped pb-250">
+            <section className="section section-lg section-shaped ">
               <div className="shape shape-style-1 shape-default">
                 <span />
                 <span />
@@ -701,7 +701,7 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+            <Container className="pt-lg ">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>

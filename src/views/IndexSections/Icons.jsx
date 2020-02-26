@@ -7,18 +7,17 @@ class Icons extends React.Component {
   render() {
     return (
       <>
-        <section className="section section-lg section-nucleo-icons pb-250">
+        <section className="section section-lg section-nucleo-icons">
           <Container>
             <Row className="justify-content-center">
               <Col className="text-center" lg="8">
-                <h2 className="display-3">Tech i've worked with.</h2>
+                <h2 className="display-3">Tech I've worked with.</h2>
                 <p className="lead">
-                  Here are some of the techonolgies i have used and worked with
+                  Here are some of the techonolgies I have used and worked with
                   professionally.
                 </p>
               </Col>
             </Row>
-
             <div className="icons-container blur-item mt-5 on-screen">
               <i className="icon " id="tooltip24601">
                 <span
