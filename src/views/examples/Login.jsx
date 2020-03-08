@@ -20,7 +20,7 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
-import SimpleFooter from "components/Footers/SimpleFooter.jsx";
+import ContactFooter from "components/Footers/ContactFooter.jsx";
 
 class Login extends React.Component {
   componentDidMount() {
@@ -162,7 +162,7 @@ class Login extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        <ContactFooter />
       </>
     );
   }

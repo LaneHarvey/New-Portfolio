@@ -21,7 +21,7 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
-import SimpleFooter from "components/Footers/SimpleFooter.jsx";
+
 import ContactFooter from "components/Footers/ContactFooter.jsx";
 
 
@@ -164,6 +164,7 @@ class Index extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+{/*                     
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
@@ -283,14 +284,14 @@ class Index extends React.Component {
                           </Button>
                         </CardBody>
                       </Card>
-                    </Col>
+                    </Col> */}
                   </Row>
                 </Col>
               </Row>
             </Container>
           </section>
 
-          {/* <SimpleFooter /> */}
+          
           <ContactFooter />
         </main>
       </>

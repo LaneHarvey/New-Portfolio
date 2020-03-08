@@ -20,7 +20,7 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
-import SimpleFooter from "components/Footers/SimpleFooter.jsx";
+import ContactFooter from "components/Footers/ContactFooter.jsx";
 
 class Register extends React.Component {
   componentDidMount() {
@@ -172,7 +172,7 @@ class Register extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        <ContactFooter />
       </>
     );
   }

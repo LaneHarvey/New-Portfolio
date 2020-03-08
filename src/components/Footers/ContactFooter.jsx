@@ -14,6 +14,9 @@ import {
   InputGroup,
   Container,
   Row,
+  NavItem,
+  NavLink,
+  Nav,
   Col
 } from "reactstrap";
 
@@ -93,6 +96,32 @@ class ContactFooter extends React.Component {
                 </Card>
               </Col>
             </Row>
+            <hr/>
+            <Row className=" align-items-center justify-content-md-between">
+              <Col md="6">
+                <div className=" copyright">
+                  © {new Date().getFullYear()}{" "}
+                  <span>
+                   Lane Harvey (:
+                </span>
+                </div>
+              </Col>
+
+              <Col md="6">
+                <Nav className=" nav-footer justify-content-end">
+                  <NavItem>
+                    <NavLink
+                      href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"
+                      target="_blank"
+                    >
+                      Designed with Bootstrap
+                    </NavLink>
+                  </NavItem>
+
+                </Nav>
+              </Col>
+
+            </Row> 
           </Container>
         </footer>
       </>
