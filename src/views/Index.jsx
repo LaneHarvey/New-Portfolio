@@ -164,6 +164,49 @@ class Index extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="fa fa-film" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            React Movie Search.
+                          </h6>
+                          <p className="description mt-3">
+                            Created a movie searching website using React.js.
+                          </p>
+                          <div>
+                          <Badge color="warning" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              CSS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              JS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              React.js
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Netlify
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              Github
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://lanes-movie-search.netlify.app/"
+                            target="_blank"
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
 {/*                     
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
